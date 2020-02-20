@@ -1,0 +1,15 @@
+create table cars (
+  id int auto_increment not null primary key,
+ 	tip varchar(30), 
+    producator varchar(30), 
+    anulfabricatiei int, 
+    kilometraj int, 
+    pret int, 
+    combustibil varchar(30), 
+    capacitatemotor int, 
+    taraorigine varchar(30), 
+    localitate varchar(30), 
+    usern varchar(30), 
+    imagine longblob, 
+    review varchar(1000)
+);
